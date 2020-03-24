@@ -18,7 +18,12 @@ The implementation used in this work is the following:
  
 
 ## How to execute it
-If you wish to test the UMAP-kNN, you can update the corresponding parameters.
+If you wish to test the UMAP-kNN, you can update its parameters:
+* k: the number of neigbors for kNN
+* batch: the batch size
+* d: the output dimensionality
+* w: the maximum number of instances to store inside the sliding window
+* stream: the data stream
 
 ## Datasets used in the original paper
 The real datasets are compressed and available at the root directory. 
