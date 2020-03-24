@@ -18,7 +18,7 @@ The implementation used in this work is the following:
  
 
 ## How to execute it
-If you wish to test the UMAP-kNN, you can update its parameters:
+If you wish to test the UMAP-kNN, you can update the following parameters:
 * k: the number of neigbors for kNN
 * batch: the batch size
 * d: the output dimensionality
@@ -26,5 +26,5 @@ If you wish to test the UMAP-kNN, you can update its parameters:
 * stream: the data stream
 
 ## Datasets used in the original paper
-The real datasets are compressed and available at the root directory. 
+The datasets used in this work are compressed and available at the root directory. 
 
