@@ -3,7 +3,7 @@ Repository for the batch-incremental UMAP-kNN algorithm implemented in Scikit-mu
 
 For more informations about Scikit-multiflow, check out the official website: 
 https://scikit-multiflow.github.io/
-<img src="https://scikit-multiflow.github.io/scikit-multiflow/_images/skmultiflow-logo-wide.png" height="60"/>
+<img src="https://scikit-multiflow.github.io/scikit-multiflow/_images/skmultiflow-logo-wide.png" height="80"/>
 
 
 ## Citing Uniform Manifold Approximation and Projection-Based kNN
