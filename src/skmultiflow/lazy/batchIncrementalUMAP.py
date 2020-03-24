@@ -12,15 +12,15 @@ stream = FileStream('/PathTo/cnae9.csv', -1, 1)
 stream.prepare_for_use()
 
 # Set parameters
-dim = 3 # The output dimensionality
+d = 3 # The output dimensionality
 k = 5 # The number of neighbors for kNN
-windSize=1000 # The sliding window for the kNN
+w=1000 # The sliding window for the kNN
 batch = 400 # The batch size
 
 # Configuration of kNN and UMAP
 #s='spectral'
-um = umap.UMAP(random_state=42, n_components=dim, n_neighbors=15)  #, init=s
-knn = KNN(n_neighbors=k, max_window_size=windSize)
+um = umap.UMAP(random_state=42, n_components=d, n_neighbors=15)  #, init=s
+knn = KNN(n_neighbors=k, max_window_size=w)
 
 
 size = stream.n_samples/2
